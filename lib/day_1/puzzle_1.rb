@@ -1,5 +1,5 @@
 def get_max_calories
-  file = File.open("data-puzzle-1.txt")
+  file = File.open("data_puzzle_1.txt")
   calorie_data = file.read.split("\n\n")
 
   calorie_data.map! do |elf_inventory|
