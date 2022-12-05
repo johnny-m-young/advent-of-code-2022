@@ -20,6 +20,6 @@ class NewOverlapFinder
   end
 end
 
-new_overlap_finder = NewOverlapFinder.new()
-formatted_data = new_overlap_finder.get_formatted_data(File.read("data.txt"))
-p new_overlap_finder.get_overlaps(formatted_data)
+# new_overlap_finder = NewOverlapFinder.new()
+# formatted_data = new_overlap_finder.get_formatted_data(File.read("data.txt"))
+# p new_overlap_finder.get_overlaps(formatted_data)
